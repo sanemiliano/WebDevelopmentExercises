@@ -7,6 +7,7 @@
 	<!-- The tittle tag is what appers in the description of the 
 		it is really important for search engines-->
 	<title>This is my awesome Tittle</title>
+	<link rel="stylesheet" type="text/css" href="firstPage.css">
 </head>
 
 <body>
@@ -84,11 +85,34 @@
 		<li>Read a book</li>
 	</ul>
 	<h2>Here's a good looking banana</h2>
-	<img src="banana.jpg ">
+	<!-- Very important here to notice the relative path -->
+	<img src="../../Assets/banana.jpg ">
 	<!-- The "a" tag is a inline tag, we have to specify that its a http:// protocol, because if we do not do it it tries to do it file protocol and search for a link in our project -->
 	<a href="https://www.google.com/search?q=bananas&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiu_euFipvfAhUynq0KHeR7DxUQ_AUIDigB&biw=1920&bih=939">Click here to go to into a search in Google of bananas images.</a>
 	<h2>Hey! Check out my first html page exercise I've ever done. Clink on the link below</h2>
 	<!-- This is a relative link -->
 	<a href="ThingsIveLearned.html">Click here for my first exercise page!!</a>
+
+	<!-- Now we are going to see HTML tables -->
+	<table border="1">
+		<tr>
+		<!-- th = table heading -->
+			<th>Name</th>
+			<th>Age</th>
+			<th>Result</th>
+		</tr>
+		<!-- tr = table row -->
+		<tr>
+			<!-- td = ?? -->
+			<td>Red</td>
+			<td>Orange</td>
+		</tr>
+		<tr>
+			<td>Purple</td>
+			<td>Pink</td>
+			<!-- It works!!! -->
+			<td>Fuck</td>
+		</tr>
+	</table>
 </body>
 </html>
