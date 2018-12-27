@@ -1,0 +1,48 @@
+/*//CSS SELECTORS: ELEMENT, ID, CLASS. There are more, but these are the basics.*/
+body{
+	background: url("https://www.designyourway.net/blog/wp-content/uploads/2018/01/9xuYZ9H.jpg");
+	background-size: cover;
+}
+h1{
+	color : rgb(200,15,10);
+/*	border-color: green;
+	border-width: 3px;
+	border-style: solid;*/
+	border: solid green 5px;
+}
+/*This is a element selector*/
+h2{
+
+}
+/*This is an class selector, these are great for multiple individual elements*/
+.hellyeah{
+	color:yellow;
+	text-decoration: underline wavy green
+}
+/*This is an id selector, these are great for single individual elements*/
+#pumpit{
+	color:green;
+	background-color: blue;
+}
+/*Star selector*/
+*{
+	border: 1px solid lightgrey;
+}
+/*Descendant selector*/
+li a{
+	color : red;
+}
+/*Adjacent selector, first the one that you want to modify, then the adjacent one.*/
+ul + p {
+	border: 40px dashed green;
+}
+/*Attribute selector*/
+input[type="text"]{
+	color: blue;
+	size: 50px;
+	border: 5px solid red;
+}
+/*nth of type*/
+li:nth-of-type(3){
+	background:purple;
+}
